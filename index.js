@@ -6,7 +6,7 @@ let score = 0;
 
 function timer() {
     // function to make a countdown
-    let timeLeft = 10;
+    let timeLeft = 30;
     let countdown = setInterval(function() {
         document.getElementById("timer").innerHTML = "Time Left: " + timeLeft--;
 
