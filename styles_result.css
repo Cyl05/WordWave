@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Montserrat Bold;
+    src: url(Montserrat-Bold.ttf);
+}
+
+body {
+    background-color: #2e1a47;
+}
+
+.title {
+    color: #bb92f6;
+    font-family: Montserrat Bold;
+    font-size: 100px;
+    margin: 200px 0 20px 0;
+}

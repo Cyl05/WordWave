@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Montserrat Bold;
+    src: url(Montserrat-Bold.ttf);
+}
+
+body {
+    background-color: #2e1a47;
+}   
+
+.title {
+    display: block;
+    width: 700px;
+    color: #CF9FFF;
+    font-size: 100px;
+    font-family: Montserrat Bold;
+    margin: 200px auto 0 auto;
+}
+
+.header {
+    margin: auto;
+    text-align: center;
+    width: 800px;
+    border-bottom: 5px dotted #CF9FFF;
+}
+
+.desc {
+    width: 850px;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CF9FFF;
+}
+
+.play_button {
+    display: block;
+    margin: auto;
+    width : 400px;
+    height: 100px;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: white;
+    background-color: #9979c2;
+    border: 10px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+}
