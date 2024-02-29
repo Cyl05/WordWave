@@ -44,6 +44,7 @@ function submit_word (event) {
     event.preventDefault(); // to prevent auto refresh of page when form submitted
 
     let word = document.getElementById("input").value;
+    word = word.toLowerCase();
     
     // getting all 4 letter word list from enable4.txt file
     fetch('enable4.txt')

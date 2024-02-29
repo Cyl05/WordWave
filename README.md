@@ -1,8 +1,10 @@
-# WordWave
+# Word Wave
 
 This project was made as part of the Full Stack Development mini project submission.
 
 ### About the project
+
+![Image of Word Wave game screen](./game.png)
 
 This is a simple word game which involves guessing as many 4 lettered words as possible within the given time limit of 30 seconds. The game adds all correct guessed words to an area below the input field and does not allow you to guess the same word again. Try to get the highest score you can.
 
