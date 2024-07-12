@@ -17,3 +17,5 @@ This is a simple word game which involves guessing as many 4 lettered words as p
 
 ### Credits
 Made with the help of Pranav Vinod Pillai who helped with the enable4.txt word list which gets all the 4 letter words to check your inputs with.
+
+## You can access the site on this URL: https://cyl05.github.io/WordWave/
