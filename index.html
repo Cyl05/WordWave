@@ -1,27 +1,12 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <title>Word Wave</title>
-    <link rel="stylesheet" href="../css/styles_game.css">
-    <script src="index.js"></script>
+    <link rel="stylesheet" href="css/styles_homepage.css">
 </head>
-<body onload="timer();">
-    <div class="header">
-        <p class="heading">Word Wave</p>
-        <p class="timer" id="timer">Time Left: 30</p>
-    </div>
-
-    <form class="input_area" onsubmit="submit_word(event)">
-        <input type="text" class="input_box" id="input" placeholder="Enter word here...">
-        <div class="result" id="result">Result</div>
-    </form>
-
-    <div class="list">
-        <div class="row1" id="row1"></div>
-        <div class="row2" id="row2"></div>
-        <div class="row3" id="row3"></div>
-    </div>
-
-    <p class="score" id="score">Score: 0</p>
-
+<body>
+    <div class="header"><h1 class="title">Word Wave</h1></div>
+    <p class="desc">A game where you guess as many 4 letter words as you can in 30 seconds</p>
+    <a href="index.html"><button class="play_button">Play game</button></a>
 </body>
 </html>
